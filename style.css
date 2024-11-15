@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Oswald&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675827055668-2dae1b8ac181?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8d2VhdGhlcnxlbnwwfHwwfHx8MA%3D%3D);
+}
+#temp_calc{
+    background-color: rgb(156, 180, 123);
+    width:80%;
+    margin-left: 100px;
+    padding:20px;
+
+    text-align: center;
+    -webkit-box-shadow: 0 10px 6px #777;
+    -moz-box-shadow: 0px 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+#temp_calc label{
+    font-size: 30px;
+}
+#temp{
+    border:none;
+    padding:10px;
+    height:25px;
+    width:100px;
+    margin-top: 2px;
+    font-size: 12px;
+    vertical-align: top;
+}
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border:2px solid white;
+    background-color: black;
+    color:aliceblue;
+}
+#result{
+    font-size: 30px;
+}
+
